@@ -1,0 +1,131 @@
+/* Base styles (for larger screens) */
+.bg-con {
+  background-image: url('https://s3-alpha-sig.figma.com/img/8cca/f66f/19edc15e3aa6b6a1301fd6667bf2509e?Expires=1735516800&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=MKeZtTimFIdcc~DRKdLZmA~RbmCzw5mehwrksBPmqrcVljyBfelML0UvrXTP-ONR6y56U8YAewMCUVoeUdyfxuZe6UKoJg7CACDc8~iurCDb2hRryR9ALO3i0wsSdzIxKuaJ7hVFiIaZ5yFNHxgrB~bAiwk921LusdWDi2ywFtHnG5ktuS-jISkB9knZwfQKZXHGAUZpMynm1oRtN-SPxL6ZeGDUEdbfZdHM5nMuS54P-i65YajOpsEKN7yND4a1NHM63yKDrTApcZmoroxm69ovSMZyz9AOLWH0imubRbh7Ec-lLNQDC1p1jS-Fyxqgu9pd405EoKg0l-c1eIEB8A__');
+  height: 100vh;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  overflow: auto;
+  filter: brightness(70%);
+}
+
+.title {
+  font-size: 40px;
+  color: #e50914;
+  align-self: flex-start;
+}
+
+.errorPara {
+  color: #e50914;
+  margin-top: 5px;
+}
+
+.loginForm {
+  width: 456px;
+  height: 440px;
+  background-color: #0c0b1099;
+  border-radius: 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.login {
+  color: #ffffff;
+  font-weight: 600;
+  font-size: 25px;
+  text-align: center;
+}
+
+.labeled {
+  color: #ffffff;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.text {
+  background: #333333;
+  border-width: 0px;
+  width: 360px;
+  height: 40px;
+  top: 24px;
+  gap: 0px;
+  border-radius: 2px 0px 0px 0px;
+  opacity: 0px;
+  color: #ffffff;
+  margin-top: 4px;
+}
+
+.inputCard {
+  margin-bottom: 5px;
+}
+
+.loginBtn {
+  width: 360px;
+  height: 40px;
+  gap: 0px;
+  border-radius: 8px;
+  opacity: 0px;
+  cursor: pointer;
+  background-color: #e50914;
+  color: #ffffff;
+  border-width: 0px;
+  margin-top: 25px;
+}
+
+/* Small devices (max-width: 600px) */
+@media (max-width: 600px) {
+  .title {
+    font-size: 30px;
+  }
+  .loginForm {
+    margin-left: 50px;
+  }
+  .text {
+    width: 100%;
+  }
+  .bg-con {
+    background-color: #000000;
+    height: 100vh;
+    background-size: cover;
+  }
+
+  .loginBtn {
+    width: 100%;
+  }
+
+  .login {
+    font-size: 20px;
+  }
+
+  .inputCard {
+    width: 100%;
+  }
+}
+
+/* Medium devices (min-width: 601px and max-width: 1024px) */
+@media (min-width: 601px) and (max-width: 1024px) {
+  .title {
+    font-size: 35px;
+  }
+
+  .loginForm {
+    width: 80%;
+    height: auto;
+    padding: 30px;
+  }
+
+  .text {
+    width: 100%;
+  }
+
+  .loginBtn {
+    width: 100%;
+  }
+
+  .login {
+    font-size: 22px;
+  }
+}

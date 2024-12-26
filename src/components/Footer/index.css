@@ -1,0 +1,19 @@
+.contactFlex {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 50px;
+}
+.contact {
+  font-size: 25px;
+  color: #ffffff;
+}
+.icon {
+  color: #ffffff;
+  padding-right: 10px;
+  font-size: 30px;
+}
+.iconFlex {
+  display: flex;
+  align-items: center;
+}

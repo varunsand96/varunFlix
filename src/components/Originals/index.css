@@ -1,0 +1,27 @@
+.failurePara {
+  color: #ffffff;
+}
+.failure {
+  width: Hug (94px);
+  height: Hug (32px);
+  padding: 4px 16px 4px 16px;
+  gap: 8px;
+  border-radius: 4px 0px 0px 0px;
+  opacity: 0px;
+  background-color: #ffffff;
+  color: #000000;
+  border-width: 0px;
+}
+
+.loader-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.failCon {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}

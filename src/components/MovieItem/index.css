@@ -1,0 +1,164 @@
+.movieLogo2 {
+  width: 100%;
+  height: 500px;
+  gap: 0px;
+
+  mask-image: linear-gradient(
+    to bottom,
+    rgba(0, 0, 0, 99) 0%,
+    rgba(0, 0, 0, 0) 100%
+  );
+  filter: brightness(60%);
+}
+
+.overview {
+  position: absolute;
+  top: 300px;
+}
+.onOver {
+  position: absolute;
+  top: 370px;
+  left: 60px;
+  display: flex;
+  align-items: center;
+}
+.runtime {
+  width: 62px;
+  height: 23px;
+
+  gap: 0px;
+  opacity: 0px;
+  color: #ffffff;
+  font-size: 20px;
+}
+.adult {
+  color: #ffffff;
+  font-size: 20px;
+  width: 50px;
+  height: 27px;
+  border: 1px #ffffff solid;
+  left: 75px;
+  padding: 4px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+}
+
+.release {
+  color: #ffffff;
+  font-size: 20px;
+  position: absolute;
+  left: 140px;
+}
+
+.para2 {
+  font-size: 20px;
+  color: #ffffff;
+  position: absolute;
+  top: 210px;
+  left: 60px;
+  width: 700px;
+}
+.textOver {
+  position: static;
+}
+.genrePara {
+  color: #94a3b8;
+  font-size: 20px;
+  font-weight: bold;
+  padding-left: 40px;
+}
+.imgCon2 {
+  position: relative;
+  margin-bottom: 0px;
+}
+.downCon {
+  background-color: #000000;
+ 
+  display: flex;
+}
+@media (max-width: 600px) {
+  .downCon {
+    overflow: visible;
+    flex-wrap: wrap;
+  }
+  .name {
+    font-size: 30px;
+  }
+  .para2 {
+    top: 180px;
+    width: 320px;
+    font-size: 15px;
+  }
+}
+.bggCon {
+  overflow: auto;
+
+  background-color: #000000;
+  height: 100vh;
+  background-size: cover;
+}
+
+.listGen {
+  color: #ffffff;
+  list-style-type: none;
+  padding-left: 0px;
+}
+.votePara {
+  color: #ffffff;
+  padding-left: 40px;
+}
+.cardItem {
+  padding-right: 100px;
+  padding-left: 10px;
+}
+.moreHead {
+  color: #ffffff;
+  font-weight: bold;
+  font-size: 20px;
+  padding-left: 40px;
+}
+.similar {
+  margin-top: 0px;
+  padding-top: 0px;
+}
+.similarFlex {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.movieItemCon {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.loader-container2 {
+  margin-top: 270px;
+  margin-left: 600px;
+}
+
+.failpara {
+  color: #ffffff;
+  font-size: 20px;
+}
+.tryAgain {
+  width: Hug (110px);
+  height: Hug (48px);
+  padding: 12px 24px 12px 24px;
+  gap: 8px;
+  border-radius: 4px 0px 0px 0px;
+  opacity: 0px;
+  border-width: 0px;
+  background-color: #ffffff;
+  color: #000000;
+}
+
+.tryAgainCon {
+  margin-top: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
